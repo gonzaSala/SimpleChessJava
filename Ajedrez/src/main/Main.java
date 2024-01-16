@@ -11,11 +11,11 @@ public class Main {
 		
 		gamePanel gp = new gamePanel();
 		window.add(gp);
+		window.setVisible(true);
 		window.pack();
 		
 		
 		window.setLocationRelativeTo(null);
-		window.setVisible(true);
 		
 		gp.launchGame();
 		

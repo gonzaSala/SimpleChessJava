@@ -20,11 +20,13 @@ public class Mouse extends MouseAdapter {
 	
 	@Override
 	public void mouseDragged(MouseEvent e) {
-		
+		x = e.getX();
+		y = e.getY();
 	}
 	
 	@Override
-	public void mouseMovent(MouseEvent e) {
-		
+	public void mouseMoved(MouseEvent e) {
+		x = e.getX();
+		y = e.getY();
 	}
 }
